@@ -12,6 +12,10 @@ body{
     flex-wrap: wrap;
     align-content: space-evenly;
     gap: 20px;
+    background-color: white;
+    height: 460px;
+    width: 580px;
+    border-radius: 30px;
 }
 
 .personagens{
