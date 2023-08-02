@@ -1,12 +1,15 @@
 body{
-    display: flex;
+
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #32E383, #263238)
+    background: linear-gradient(45deg, #32E383, #263238)
 }
-.card{
-    position: relative;
-    width: 240px;
-    height: 172px;
-    border-radius: 30px;
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap: 20px;
 }
