@@ -18,25 +18,25 @@ body{
     background-color: white;
 }
 
-.personagens{
+.personagens .img{
     width: 240px;
     height: 172px;
     border-radius: 30px;
 }
 
-.episodios{
+.episodios .img{
     width: 240px;
     height: 172px; 
     border-radius: 30px;
 }
 
-.citacoes{
+.citacoes .img{
     width: 240px;
     height: 172px;
     border-radius: 30px;    
 }
 
-.criaturas{
+.criaturas .img{
     width: 240px;
     height: 172px;
     border-radius: 30px;    
