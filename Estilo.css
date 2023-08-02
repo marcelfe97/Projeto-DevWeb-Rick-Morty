@@ -21,19 +21,23 @@ body{
 .personagens{
     width: 240px;
     height: 172px;
+    border-radius: 30px;
 }
 
 .episodios{
     width: 240px;
     height: 172px; 
+    border-radius: 30px;
 }
 
 .citacoes{
     width: 240px;
-    height: 172px;    
+    height: 172px;
+    border-radius: 30px;    
 }
 
 .criaturas{
     width: 240px;
-    height: 172px;    
+    height: 172px;
+    border-radius: 30px;    
 }
