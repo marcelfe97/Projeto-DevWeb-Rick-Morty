@@ -1,3 +1,12 @@
 body{
-    background: linear-gradient(135deg, var(#32E383), var(#263238))
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #32E383, #263238)
+}
+.card{
+    position: relative;
+    width: 240px;
+    height: 172px;
+    border-radius: 30px;
 }
