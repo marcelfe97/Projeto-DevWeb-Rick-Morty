@@ -13,3 +13,23 @@ body{
     align-content: space-evenly;
     gap: 20px;
 }
+
+.personagens{
+    width: 240px;
+    height: 172px;
+}
+
+.episodios{
+    width: 240px;
+    height: 172px; 
+}
+
+.citacoes{
+    width: 240px;
+    height: 172px;    
+}
+
+.criaturas{
+    width: 240px;
+    height: 172px;    
+}
