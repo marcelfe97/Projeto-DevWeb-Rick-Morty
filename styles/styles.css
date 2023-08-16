@@ -1,6 +1,6 @@
 .body{
     display: block;
-    background-color: linear-gradient(45deg, #32E383, #263238);
+    background: linear-gradient(45deg, #32E383, #263238);
 }
 
 header{
