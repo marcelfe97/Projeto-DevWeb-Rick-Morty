@@ -33,3 +33,7 @@ header{
     background-color: #263238;
 }
 
+.perguntas{
+    display: flex;
+    justify-content: space-between;
+}
