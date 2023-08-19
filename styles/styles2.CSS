@@ -53,4 +53,18 @@ header{
     justify-content:left;
     align-content:start;
     background-color: #263238;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.box6{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.box6 button{
+    height: 64px;
+    width: 212px;
+    border-radius: 30px;
+    background-color: #4BB257;      
 }
