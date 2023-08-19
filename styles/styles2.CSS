@@ -24,32 +24,33 @@ header{
     background-color: #4BB257;
 }
 
-.perfil small image{
+.perfil small img{
     width: 80px;
     height: 81px;
     border-radius: 38.5px;
-    stroke: #4BB257, 6px;   
 }
 
 .center{
     display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    background-color: #263238;
-}
-
-.perguntas{
-    display: flex;
-    justify-content: space-between;
+    height: 861px;
 }
 
 .menu{
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    justify-content:start;
 }
 
-.box5{
-    display: flex;
-    flex-direction: column;
+.botoes button{
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
+}
+
+.perguntas{
+    width: 1350px;
+    display: grid;
+    justify-content:left;
+    align-content:start;
+    background-color: #263238;
 }

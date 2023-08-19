@@ -17,7 +17,7 @@ header{
     height: 115px;    
 }
 
-.login{
+.login button{
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -45,28 +45,43 @@ header{
     background-color: white;
 }
 
-.personagens{
+.destaques{
+    display:grid;
+    grid-template-columns: ifr ifr ifr;
+    width: 580px;
+    height: 460px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.personagens-img img{
     width: 240px;
     height: 172px;
     border-radius: 30px;
 }
 
-.episodios{
+.episodios-img img{
     width: 240px;
     height: 172px; 
     border-radius: 30px;
 }
 
-.citacoes{
+.citacoes-img img{
     width: 240px;
     height: 172px;
     border-radius: 30px;    
 }
 
-.criaturas{
+.criaturas-img img{
     width: 240px;
     height: 172px;
-    border-radius: 30px;    
+    border-radius: 30px;   
+}
+
+.vertudo button{
+    width: 139px;
+    height: 34px;
+    background-color: #4BB257;
 }
 
 .portal{
