@@ -1,0 +1,70 @@
+body{
+    display: block;
+    background: linear-gradient(45deg, #32E383, #263238);
+}
+
+header{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 30px;
+}
+
+.logo img{
+    width: 265px;
+    height: 115px;
+}
+
+.restart button{
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #4BB257;
+}
+
+.perfil small img{
+    width: 80px;
+    height: 81px;
+    border-radius: 38.5px;
+}
+
+.center{
+    display: flex;
+    height: 861px;
+}
+
+.menu{
+    display:grid;
+    justify-content:start;
+}
+
+.botoes button{
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
+}
+
+.perguntas{
+    width: 1350px;
+    display: grid;
+    justify-content:left;
+    align-content:start;
+    background-color: #263238;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.box6{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.box6 button{
+    height: 64px;
+    width: 212px;
+    border-radius: 30px;
+    background-color: #4BB257;      
+}
