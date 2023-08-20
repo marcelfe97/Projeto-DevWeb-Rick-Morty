@@ -35,7 +35,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    border-radius: 30px;
+    flex-direction:row;
     align-content: space-evenly;
 }
 
@@ -93,6 +94,7 @@ header{
     font-size: large;
     width: 139px;
     height: 34px;
+    border-radius: 30px;
     background-color: #4BB257;
 }
 
