@@ -3,8 +3,9 @@ head{
 }
 
 body{
-    background-color: linear-gradient(45deg, #32E383, #263238);
-}
+   
+    }
+    
 
 header{
     width: 100%;
@@ -49,12 +50,14 @@ header{
 }
 
 .destaques{
-    display:grid;
-    grid-template-columns: ifr ifr ifr;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 580px;
     height: 460px;
     border-radius: 30px;
     background-color: white;
+    
 }
 
 .personagens-img img{
