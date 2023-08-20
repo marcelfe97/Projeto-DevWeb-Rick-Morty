@@ -22,6 +22,9 @@ header{
 }
 
 .login button{
+    color:white;
+    font-weight: 900;
+    font-size: xx-large;
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -85,6 +88,9 @@ header{
 }
 
 .vertudo button{
+    color:white;
+    font-weight: 900;
+    font-size: large;
     width: 139px;
     height: 34px;
     background-color: #4BB257;
@@ -97,6 +103,9 @@ header{
 }
 
 .jogar{
+    color:white;
+    font-weight: 900;
+    font-size: xxx-large;
     height: 90px;
     width: 400px;
     border-radius: 30px;
@@ -107,6 +116,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: 900;
     height:218px;
     border-radius: 30px;
     width:580px;
