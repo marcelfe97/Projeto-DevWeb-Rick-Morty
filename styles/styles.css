@@ -104,6 +104,9 @@ header{
 }
 
 .aviso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height:218px;
     width:580px;
     background-color: white;
