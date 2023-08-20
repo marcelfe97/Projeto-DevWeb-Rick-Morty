@@ -108,6 +108,7 @@ header{
     flex-direction: column;
     justify-content: center;
     height:218px;
+    border-radius: 30px;
     width:580px;
     background-color: white;
        
