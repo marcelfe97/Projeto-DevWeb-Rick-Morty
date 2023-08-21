@@ -1,4 +1,5 @@
 .body{
+    display: block;
     background: linear-gradient(45deg, #32E383, #263238);
 }
 
@@ -16,7 +17,7 @@
     height: 115px;
 }
 
-.start {
+.start button{
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -55,6 +56,11 @@
     height: 366px;
     width: 482px;
     background-color: white;
+}
+
+.conquistas-img img{
+    height: 100px;
+    width: 100px;    
 }
 
 .destaques{
