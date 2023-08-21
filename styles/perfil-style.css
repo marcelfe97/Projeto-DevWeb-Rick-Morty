@@ -12,25 +12,49 @@
 }
 
 .logo img{
-    display: flex;
     width: 265px;
     height: 115px;
 }
 
 .start {
-    display: flex;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #4BB257;
 }
 
 .perfil small{
-    display: flex;
+    width: 80px;
+    height: 81px;
+    border-radius: 38.5px;
 }
 
 .menu{
-    display: flex;
+    display: grid;
+    justify-content: center;
+}
+
+.botoes button{
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
 }
 
 .container-perfil {
     display: flex;
+    height: 861px;
+    background-color: #263238;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.conquistas{
+    display: flex;
+    align-content: center;
+    height: 366px;
+    width: 482px;
+    background-color: white;
 }
 
 .destaques{
