@@ -24,13 +24,6 @@ header{
     background-color: #4BB257;
 }
 
-.perfil small img{
-    width: 80px;
-    height: 81px;
-    border-radius: 38.5px;
-    border-color: #4BB257;
-}
-
 .menu{
     display: grid;
     justify-content: center;
@@ -46,6 +39,11 @@ header{
 .container-perfil {
     display: flex;
     height: 861px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
     background-color: #263238;
     border-radius: 30px;
     padding: 30px;
