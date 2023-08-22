@@ -51,15 +51,21 @@ header{
 
 .conquistas{
     display: flex;
-    align-content: center;
     height: 366px;
     width: 482px;
+    justify-content: space-evenly;
+    align-content:center;
     background-color: white;
+    border-radius: 30px;
 }
 
 .conquistas-img img{
     height: 100px;
     width: 100px;    
+}
+.vertudo button{
+    height: 24px;
+    width: 80px;
 }
 
 .destaques{
