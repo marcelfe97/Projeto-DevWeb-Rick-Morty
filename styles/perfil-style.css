@@ -18,6 +18,9 @@ header{
 }
 
 .start button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -36,21 +39,32 @@ header{
     background-color: #4BB257;    
 }
 
-.container-perfil {
+.container-perfil{
     display: flex;
     height: 861px;
 }
 
 .perfil{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
     background-color: #263238;
     border-radius: 30px;
     padding: 30px;
 }
 
+.progress{
+    align-self: flex-start;
+}
+
+.progress img{
+    height: 295px;
+    width: 310px;   
+}
+
 .conquistas{
     display: flex;
+    flex-wrap: wrap;
     height: 366px;
     width: 482px;
     justify-content: space-evenly;
@@ -70,8 +84,33 @@ header{
 
 .destaques{
     display: flex;
+    flex-wrap: wrap;
+    height: 366px;
+    width: 482px;
+    justify-content: space-evenly;
+    align-content:center;
 }
 
-.episodios-img {
-    display: flex;
+.personagens-img img{
+    height: 172px;
+    width: 235px;
+    border-radius: 30px;
+}
+
+.episodios-img{
+    height: 172px;
+    width: 235px;
+    border-radius: 30px;
+}
+
+.citacoes-img img{
+    height: 172px;
+    width: 235px;
+    border-radius: 30px;
+}
+
+.criaturas-img img{
+    height: 172px;
+    width: 235px;
+    border-radius: 30px;
 }
