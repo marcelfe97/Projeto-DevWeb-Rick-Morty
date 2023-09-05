@@ -31,6 +31,7 @@ header{
     height: 60px;
     width: 220px;
     left: 60px;
+    margin-right: 56px;
     flex-shrink: 0;
     border-radius: 30px;
     color:white;
@@ -40,11 +41,13 @@ header{
 .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
     flex-direction:row;
     align-content: space-evenly;
+    text-align: center;
+    border-radius: 30px;
 }
+
+
 
 .opcoes{
     height: 460px;
@@ -130,6 +133,7 @@ header{
     text-align: center;
     border-radius: 30px;
     background-color: white;
+    margin-right: 56px;
 }
 
 .aviso h3{
