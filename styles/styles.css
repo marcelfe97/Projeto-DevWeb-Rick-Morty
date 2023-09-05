@@ -47,54 +47,53 @@ header{
     border-radius: 30px;
 }
 
-
-
-.opcoes{
-    height: 460px;
-    width: 580px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    gap: 20px;
-    border-radius: 30px;
-    background-color: white;
-}
-
 .destaques{
+    width: 580px;
+    height: 460px;
+    flex-shrink: 0;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 580px;
-    height: 460px;
     border-radius: 30px;
-    background-color: white;
-    
+    backdrop-filter: blur(20px);
+    background: white;
+    margin: 0 auto;
 }
 
-.personagens-img img{
+.personagens img{
     width: 240px;
     height: 172px;
-    border-radius: 30px;
-}
-
-.episodios-img img{
-    width: 240px;
-    height: 172px; 
+    Top: 32px;
+    Left: 40px;
+    flex-shrink: 0;
     border-radius: 30px;
 }
 
-.citacoes-img img{
+.episodios img{
     width: 240px;
     height: 172px;
-    border-radius: 30px;    
+    Top: 32px;
+    Left: 300px;
+    flex-shrink: 0;
+    border-radius: 30px;
 }
 
-.criaturas-img img{
+.citacoes img{
     width: 240px;
     height: 172px;
-    border-radius: 30px;   
+    Top: 230px;
+    Left: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+
+.criaturas img{
+    width: 240px;
+    height: 172px;
+    Top: 230px;
+    Left: 300px;
+    flex-shrink: 0;
+    border-radius: 30px;
 }
 
 .vertudo button{
