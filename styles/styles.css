@@ -125,10 +125,10 @@ header{
     line-height: normal;
 }
 
-.portal{
-    width: 599px;
-    height: 595px;
-    border-radius: 496px;      
+.portal img{
+    border-radius: 342px;
+    flex-shrink: 0;
+    border-radius: 50%;
 }
 
 .jogar{
