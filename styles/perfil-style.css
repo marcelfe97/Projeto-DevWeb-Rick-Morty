@@ -46,7 +46,6 @@ header{
 
 .perfil{
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
     border-radius: 30px;
     background: #263238;
@@ -63,9 +62,9 @@ header{
     width: 310px;   
 }
 
-.progress-exp{
-    width: 75%;
-    background: #d81515;
+.dados-perfil {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 .conquistas{
