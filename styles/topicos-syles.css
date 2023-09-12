@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+body {
+    background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
+    backdrop-filter: blur(25px);
+    width: 1920px;
+    height: 1080px;
+}
+
+.logo img {
+    width: 265px;
+    height: 115px;
+    top: 5px;
+    left: 60px;
+    flex-shrink: 0;
+}
+
+.start button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #4BB257;
+}
+
+.menu{
+    display: grid;
+    justify-content: center;
+}
+
+.menu button{
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
+}
+
+.container{
+    display: flex;
+    height: 861px;
+}
+

@@ -6,6 +6,13 @@
     --icon-color: #F3F3F3;
 }
 
+body {
+    background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
+    backdrop-filter: blur(25px);
+    width: 1920px;
+    height: 1080px;
+}
+
 .form-button{
     width: 140px;
     height: 40px;
