@@ -68,6 +68,7 @@ header{
     backdrop-filter: blur(20px);
     background: white;
     margin: 0 auto;
+    padding: 15px;
 }
 
 .personagens img{

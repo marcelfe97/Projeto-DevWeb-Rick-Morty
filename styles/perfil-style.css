@@ -15,6 +15,9 @@ header{
 .logo img{
     width: 265px;
     height: 115px;
+    top: 5px;
+    left: 60px;
+    flex-shrink: 0;
 }
 
 .start button{
