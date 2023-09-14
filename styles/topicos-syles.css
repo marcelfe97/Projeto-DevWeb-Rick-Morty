@@ -31,20 +31,71 @@ body {
     background-color: #4BB257;
 }
 
+.main{
+    display: flex;
+    height: 861px;
+    justify-content: left;  
+}
+
 .menu{
     display: grid;
     justify-content: center;
 }
 
 .menu button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
     height: 64px;
     width: 265px;
     border-radius: 30px;
     background-color: #4BB257;    
 }
 
-.container{
+.topicos{
     display: flex;
     height: 861px;
+    width: 1350px;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: #263238;
+    box-shadow: -1px 5px 10px 0px #000;
+    padding: 30px;
+    flex-wrap: wrap;
 }
 
+.texto{
+    color: white;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.personagens-img{
+    align-self: center;
+}
+
+.episodios-img{
+    align-self: center;
+}
+
+.citacoes-img{
+    align-self: center;
+}
+
+.criaturas-img{
+    align-self: center;
+}
+
+.mais button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;      
+}
+
+h4{
+    color: white;
+}
