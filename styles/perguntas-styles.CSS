@@ -1,23 +1,31 @@
-body{
-    display: block;
-    background: linear-gradient(45deg, #32E383, #263238);
+body {
+    background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
+    backdrop-filter: blur(25px);
+    width: 1920px;
+    height: 1080px;
 }
 
+
 header{
-    width: 100%;
-    height: 115px;
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 5px;
 }
 
 .logo img{
     width: 265px;
     height: 115px;
+    top: 5px;
+    left: 60px;
+    flex-shrink: 0;
 }
 
 .restart button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
     height: 60px;
     width: 220px;
     border-radius: 30px;
@@ -42,6 +50,9 @@ header{
 }
 
 .botoes button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
     height: 64px;
     width: 265px;
     border-radius: 30px;
@@ -56,6 +67,7 @@ header{
     background-color: #263238;
     border-radius: 30px;
     padding: 30px;
+    color: white;
 }
 
 .box6{
@@ -64,6 +76,9 @@ header{
 }
 
 .box6 button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
     height: 64px;
     width: 212px;
     border-radius: 30px;
