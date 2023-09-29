@@ -18,7 +18,6 @@
     <canvas id='world'></canvas>
 
 <script>
-    // One of my first <canvas> experiments, woop! :D 
 
     var SCREEN_WIDTH = window.innerWidth;
     var SCREEN_HEIGHT = window.innerHeight;
@@ -84,6 +83,7 @@
     }
 
     function loop() {
+        
 
         if (mouseIsDown) {
             RADIUS_SCALE += (RADIUS_SCALE_MAX - RADIUS_SCALE) * (0.02);
@@ -106,10 +106,6 @@
             particle.offset.x += particle.speed;
             particle.offset.y += particle.speed;
 
-            // Follow mouse with some lag
-            particle.shift.x += (mouseX - particle.shift.x) * (particle.speed);
-            particle.shift.y += (mouseY - particle.shift.y) * (particle.speed);
-
             // Apply position
             particle.position.x = particle.shift.x + Math.cos(i + particle.offset.x) * (particle.orbit * RADIUS_SCALE);
             particle.position.y = particle.shift.y + Math.sin(i + particle.offset.y) * (particle.orbit * RADIUS_SCALE);
@@ -118,7 +114,7 @@
             particle.position.x = Math.max(Math.min(particle.position.x, SCREEN_WIDTH), 0);
             particle.position.y = Math.max(Math.min(particle.position.y, SCREEN_HEIGHT), 0);
 
-            particle.size += (particle.targetSize - particle.size) * 0.05;
+            particle.size += (particle.targetSize - particle.size) * 0.09;
 
             if (Math.round(particle.size) == Math.round(particle.targetSize)) {
                 particle.targetSize = 1 + Math.random() * 7;
