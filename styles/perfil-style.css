@@ -1,5 +1,12 @@
+@media screen and (max-width: 768px){
+    .container-perfil {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
 body{
-    display: block;
     background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
 }
 
@@ -7,36 +14,44 @@ header{
     width: 100%;
     height: 115px;
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     margin: 30px;
 }
 
 .logo img{
     width: 265px;
     height: 115px;
-    top: 5px;
-    left: 60px;
+    top: 9px;
+    left: 80px;
     flex-shrink: 0;
+}
+
+.menu {
+    margin: 30px;
 }
 
 .botoes button{
     height: 64px;
     width: 265px;
     border-radius: 30px;
-    background-color: #4BB257;    
+    background-color: #4BB257;
+    margin-top: 10px;
 }
 
 .container-perfil{
     height: 861px;
     display: flex;
+    justify-content: space-between;
 }
 
 .perfil{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    width: 1374px;
+    height: 861px;
     border-radius: 30px;
+    padding: 0;
     background: #263238;
     box-shadow: -1px 5px 10px 0px #000;
-    padding: 30px;
 }
