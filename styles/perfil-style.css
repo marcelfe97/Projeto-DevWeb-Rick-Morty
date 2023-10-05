@@ -98,3 +98,27 @@ header{
 .conquistas-icones img a {
     padding: 10px;
 }
+
+.destaques-categorias .destaques-item {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.destaques-categorias .destaques-item img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.destaques-item h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ffffff;
+}
