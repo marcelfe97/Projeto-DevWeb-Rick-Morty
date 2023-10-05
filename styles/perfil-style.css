@@ -90,3 +90,11 @@ header{
     margin: -3rem 5px 1rem;
     color: #FFF;
 }
+
+.conquistas-icones{
+    margin: 35px;   
+}
+
+.conquistas-icones img a {
+    padding: 10px;
+}
