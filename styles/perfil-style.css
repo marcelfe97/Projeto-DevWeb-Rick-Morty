@@ -28,7 +28,7 @@ header{
 }
 
 .menu {
-    margin: 60px auto 60px;
+    margin: 20px auto 60px auto;
 }
 
 .botoes button{
@@ -96,7 +96,8 @@ header{
 }
 
 .conquistas-icones img a {
-    padding: 10px;
+    padding: 15px 0 10px 0;
+    flex-basis: 33%;
 }
 
 .destaques-categorias .destaques-item {
