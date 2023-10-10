@@ -94,9 +94,11 @@ header{
     height: 64px;
     width: 265px;
     border-radius: 30px;
-    background-color: white;
     padding: 5px;
-    border: 2px black;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    border: 5px black;
     transition: 0.4s all;
 }
 
