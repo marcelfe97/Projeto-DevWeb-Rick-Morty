@@ -4,9 +4,9 @@ let questions = [
         question: "O que o Morty queria do Presidente?",
         answer: "Uma Selfie",
         options: [
-            "Um prêmio"
-            "Uma camiseta"
-            "Um autografo"
+            "Um prêmio",
+            "Uma camiseta",
+            "Um autografo",
             "Uma Selfie"
         ]
     }
@@ -32,9 +32,16 @@ function show(count){
     toggleActive();
 }
 
-functions toggleActive(){
+function toggleActive(){
     let options = document.querySelectorAll("li.options");
-    for(let i=0; i <options.length; i++>){
-        
+    for(let i=0; i <option.length; i++){
+        option[i].onclick = function(){
+            for(let i=0; i< option.lenght; i++){
+                if(option[i].classList.contains("active")){
+                    option[i].classList.remove("active");
+                }
+            }
+            option(i).classList.add("active");
+        }
     }
 }
