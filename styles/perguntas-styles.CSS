@@ -84,6 +84,10 @@ header{
     border-radius: 30px;
     background-color: #4BB257;      
 }
+.options_group{
+    list-style-type: none;
+    margin: 30px;
+}
 
 .options{
     display: block;
@@ -94,5 +98,14 @@ header{
     padding: 5px;
     border: 2px black;
     transition: 0.4s all;
+}
 
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #4BB257;
+    color: #4BB257;
+}
+
+.options:active{
+    background-color: #4BB257;
 }
