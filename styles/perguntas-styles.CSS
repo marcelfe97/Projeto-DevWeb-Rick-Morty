@@ -84,3 +84,15 @@ header{
     border-radius: 30px;
     background-color: #4BB257;      
 }
+
+.options{
+    display: block;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px;
+    border: 2px black;
+    transition: 0.4s all;
+
+}
