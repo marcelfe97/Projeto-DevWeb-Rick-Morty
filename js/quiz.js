@@ -7,7 +7,7 @@ let questions = [
             "Um prêmio",
             "Uma camiseta",
             "Um autografo",
-            "Uma Selfie"
+            "Uma Selfie",
         ]
     },
     {
@@ -18,7 +18,7 @@ let questions = [
             "Ela queria destruir todas as frmas de vida",
             "O Ricky não gostava dele",
             "Pois ele era fio apesar de ser útil",
-            "Pois ele cantava mal"
+            "Pois ele cantava mal",
         ]
     },
     {
@@ -29,7 +29,7 @@ let questions = [
             "Fez a Summer trabalhar para ele",
             "Removeu a todas as maldições dos itens",
             "Abriu uma loja concorrente",
-            "Destruiu a loja dele"
+            "Destruiu a loja dele",
         ]
     },
     {
@@ -40,7 +40,7 @@ let questions = [
             "No banheiro da sala de terapia da Dr Wong",
             "No banheiro da casa dos Smith",
             "Em um prédio da CIA",
-            "Um prédio de uma agência russa"
+            "Um prédio de uma agência russa",
         ]
     },
     {
@@ -51,7 +51,7 @@ let questions = [
             "Ice T",
             "50 Cent",
             "O presidente que secretamente é um rapper",
-            "Snopp Dogg"
+            "Snopp Dogg",
         ]
     }
 ]
