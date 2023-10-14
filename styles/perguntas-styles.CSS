@@ -59,7 +59,7 @@ header{
     background-color: #4BB257;    
 }
 
-.perguntas{
+.fundo{
     width: 1350px;
     display: grid;
     justify-content:left;
@@ -70,12 +70,22 @@ header{
     color: white;
 }
 
-.box6{
+.questions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.Sair{
     display: flex;
     justify-content: space-evenly
 }
 
-.box6 button{
+.Sair button{
     color: white;
     font-weight: 900;
     font-size: large;
