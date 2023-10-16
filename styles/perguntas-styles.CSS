@@ -59,7 +59,7 @@ header{
     background-color: #4BB257;    
 }
 
-.perguntas{
+.fundo{
     width: 1350px;
     display: grid;
     justify-content:left;
@@ -70,12 +70,22 @@ header{
     color: white;
 }
 
-.box6{
+.questions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.Sair{
     display: flex;
     justify-content: space-evenly
 }
 
-.box6 button{
+.Sair button{
     color: white;
     font-weight: 900;
     font-size: large;
@@ -83,4 +93,31 @@ header{
     width: 212px;
     border-radius: 30px;
     background-color: #4BB257;      
+}
+.options_group{
+    list-style-type: none;
+    margin: 30px;
+}
+
+.options{
+    display: block;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    border: 5px black;
+    transition: 0.4s all;
+}
+
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #4BB257;
+    color: #4BB257;
+}
+
+.options:active{
+    background-color: #4BB257;
 }
